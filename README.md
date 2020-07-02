@@ -44,6 +44,11 @@
 wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/CCChieh/IBMYes/master/install.sh && chmod +x install.sh  && ./install.sh
 ```
 
+补充：输入上面命令前需要先登录到达拉斯地区一下，按照提示输入账号密码，要不然可能会因为区域不免费而错误。
+```shell
+ibmcloud login -r us-south
+```
+
 ![image-20200615210944753](img/README/image-20200615210944753.png)
 
 在配置的时候需要输入应用名称（这里就是我创建应用的时候输入应用名称我输入的是ibmyes，你需要改成你自己的名称）和应用内存大小（我们刚刚选择的是256）
